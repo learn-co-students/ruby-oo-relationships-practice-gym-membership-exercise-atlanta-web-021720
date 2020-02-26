@@ -4,6 +4,19 @@ require_relative '../config/environment.rb'
 
 # test code goes here
 
+gene = Lifter.new("Gene", 1000)
+trey = Lifter.new("Trey", 900)
+bryan = Lifter.new("Bryan", 500)
+golds = Gym.new("GoldsGym")
+globo = Gym.new("GloboGym")
+lafit = Gym.new("LAFitness")
+membership1 = Membership.new(100, gene, golds)
+membership2 = Membership.new(50, gene, globo)
+membership3 = Membership.new(100, gene, lafit)
+membership4 = Membership.new(30, trey, lafit)
+
+
+
 binding.pry
 
 puts "Gains!"
