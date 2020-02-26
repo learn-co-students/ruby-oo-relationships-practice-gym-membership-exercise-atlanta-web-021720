@@ -6,7 +6,7 @@ require_relative '../config/environment.rb'
 
 gene = Lifter.new("Gene", 1000)
 trey = Lifter.new("Trey", 900)
-brian = Lifter.new("Bryan", 500)
+bryan = Lifter.new("Bryan", 500)
 golds = Gym.new("GoldsGym")
 globo = Gym.new("GloboGym")
 lafit = Gym.new("LAFitness")
